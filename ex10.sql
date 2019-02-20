@@ -6,7 +6,7 @@ UPDATE pet SET name = 'Zed''s Pet' WHERE id IN (
     WHERE
     person.id = person_pet.person_id AND
     pet.id = person_pet.pet_id AND
-    person.frist_name = 'Zed'
+    person.first_name = 'Zed'
 );
 
 SELECT * FROM pet;
